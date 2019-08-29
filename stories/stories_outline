@@ -1,8 +1,7 @@
 -stories
 	-text
 	-time
-	-like
-	-who_posted
-	-delete
-	-create_new
+	-delete_story
+	-add_story
+	-show_story
 	

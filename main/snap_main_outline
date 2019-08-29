@@ -1,0 +1,24 @@
+-login
+	-user_id
+	-password
+		-encrypt password
+
+-sign_up
+	-user_id
+	-first_name
+	-last_name
+	-password
+		-password encrypt
+
+-logedin
+	-find_new_connection
+	-connection_list
+		-remove_connection
+		-block_connection
+		-see_connection
+			-view connection_profile
+			
+	-connection_request
+		-delete_connection_request
+		-block_connection
+
