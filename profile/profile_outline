@@ -1,0 +1,19 @@
+
+-connections_list
+	-delete_connections
+	-block_connection
+	-view_connection_story
+	-find_new_connection
+
+
+-find_new_connection
+
+
+-connections_request_list
+	-connection_delete_request
+	-block connection
+
+-stories
+	-post stories
+	-view_my_story
+		-delete_story
