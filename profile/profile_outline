@@ -1,3 +1,10 @@
+-user details
+	-user_id
+	-fname
+	-lname
+	-gender
+	-number_of_connections
+	-logout
 
 -connections_list
 	-delete_connections
@@ -8,7 +15,6 @@
 
 -find_new_connection
 
-
 -connections_request_list
 	-connection_delete_request
 	-block connection
@@ -17,3 +23,17 @@
 	-post stories
 	-view_my_story
 		-delete_story
+
+
+
+----USER----
+user_name | fname | lname | gender | password
+
+
+---Connection Data _base---
+--user_name--
+
+connection_user_id | fname | lname |  
+
+
+
