@@ -1,17 +1,17 @@
 import sqlite3
-
-
-
 from os import sys,system
 
+sys.path.insert(1,"../")
 
-import signup
-import '../profile/profile'
+
+import profile.profile
 import snap_main
+import signup
 
 
-class login:
-	def login(self):
+class login():
+	
+	def login(self,user_id):
 	
 			match_user = 1
 			actual_password = ""
@@ -69,3 +69,4 @@ class login:
 		pass
 		#snap_main()
 
+login().login("s")

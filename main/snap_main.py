@@ -1,6 +1,7 @@
 import sqlite3
 from os import sys, system
 
+sys.path.insert(1,"../")
 
 import login
 import signup
@@ -26,11 +27,6 @@ def snap_main():
 
 	else:
 		signup.signup().signup()
-
-
-
-
-
 
 
 

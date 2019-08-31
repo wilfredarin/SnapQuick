@@ -2,7 +2,7 @@ import sqlite3
 from os import sys,system
 
 sys.path.insert(1,"../profile")
-from profile import profile
+import profile.profile
 
 class signup():
 	def signup(self):

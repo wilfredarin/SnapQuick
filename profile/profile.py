@@ -2,8 +2,7 @@ from os import sys
 sys.path.insert(1,'../')
 
 #from main import snap_main
-
-from main import login
+import main.login
 
 
 import sqlite3
