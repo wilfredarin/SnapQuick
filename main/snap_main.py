@@ -23,7 +23,7 @@ def snap_main():
 	#check log or sign
 	if log==1:
 
-		login.login().login()
+		login.login().login(user_id)
 
 	else:
 		signup.signup().signup()
