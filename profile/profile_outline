@@ -27,13 +27,13 @@
 
 
 ----USER----
-user_name | fname | lname | gender | password
+user_id | fname |lname |gender |email_id |phone_number | password
 
 
 ---Connection Data _base---
 --user_name--
 
-connection_user_id | fname | lname |  
+connection_user_id |  sent_request_user_id | received_request_user_id char 
 
 
 

@@ -5,3 +5,13 @@
 	-add_story
 	-show_story
 	
+
+--Connection Data _base---
+ 
+--user_name--
+
+connection_user_id | fname | lname |  stories
+
+
+---stories---
+user_id | heading | body | created_time | updated_time | stamp_time 

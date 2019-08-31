@@ -1,6 +1,8 @@
 import sqlite3
-from os import system
+from os import sys,system
 
+sys.path.insert(1,"../profile")
+from profile import profile
 
 class signup():
 	def signup(self):
@@ -32,10 +34,12 @@ class signup():
 		fname = input("First Name: ")	
 		lname = input("Last Name: ")
 		gender = input("Gender: ")
+		email_id = input("Email Id: ")
+		phone_number = int(input("Phone Number: "))
 
 
-		sql_command = """INSERT INTO user VALUES (?,?,?,?,?);"""
-		crsr.execute(sql_command,(user_id,fname,lname,gender,set_password)) 
+		sql_command = """INSERT INTO user VALUES (?,?,?,?,?,?,?);"""
+		crsr.execute(sql_command,(user_id,fname,lname,gender,email_id,phone_number,set_password,)) 
 		connection.commit()
 		print("account succesfully Created !")
-		#profile.profile().show_profile(entered_id)
+		profile().show_profile(entered_id)

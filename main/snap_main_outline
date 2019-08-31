@@ -22,3 +22,6 @@
 		-delete_connection_request
 		-block_connection
 
+----USER----
+user_name | fname | lname | gender | password
+

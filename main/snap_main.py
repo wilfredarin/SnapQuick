@@ -1,9 +1,9 @@
 import sqlite3
-from os import sys
+from os import sys, system
 
-sys.path.insert(1,"../")
-from main import login
-from main import signup
+
+import login
+import signup
 
 
 def snap_main():
@@ -16,8 +16,8 @@ def snap_main():
 
 	connection  = sqlite3.connect("data_base.db")
 	crsr = connection.cursor()
-	sql_command = """ CREATE TABLE user(user char,fname char,lname char,gender char,password char)"""
-	#crsr.execute(sql_command)
+	sql_command = """ CREATE TABLE if not exists user(user_id char,fname char,lname char,gender char,email_id char,phone_number int,password char)"""
+	crsr.execute(sql_command)
 
 	#check log or sign
 	if log==1:
